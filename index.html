@@ -1,37 +1,116 @@
-<!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
-<form action='https://forms.zohopublic.eu/manuelromero/form/ContactoGTMA/formperma/jJ-Pf5NLCaNVF-sz1d3O2oRNX4x5gQD1b5lY1jhZW_s/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
-<input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
-<input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
-<input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
-<h2>Contacto GTMA</h2>
-<p></p>
-<!--Single Line-->
-<label>Nombre 
-<em>*</em>
-</label>
-<input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />
-<!--Single Line-->
-<label>Apellido 
-<em>*</em>
-</label>
-<input  type="text" name="SingleLine1" value="" fieldType=1 maxlength="255" />
-<!--Single Line-->
-<label>Empresa 
-</label>
-<input  type="text" name="SingleLine2" value="" fieldType=1 maxlength="255" />
-<!--Email-->
-<label>Correo electrónico 
-<em>*</em>
-</label>
-<input type="text" maxlength="255" name="Email" value="" fieldType=9 />
-<!--Phone-->
-<label>Teléfono
-</label>
-<input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" />
-<label>Número</label>
-<!--Multi Line-->
-<label>¿Cómo te podemos ayudar? 
-<em>*</em>
-</label>
-<textarea name="MultiLine" maxlength="65535"></textarea>
-<button type="submit"><em>Submit</em></button></form>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Nunito Sans', sans-serif;
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+    <form
+      action="https://forms.zohopublic.eu/manuelromero/form/ContactoGTMA/formperma/jJ-Pf5NLCaNVF-sz1d3O2oRNX4x5gQD1b5lY1jhZW_s/htmlRecords/submit"
+      name="form"
+      id="form"
+      method="POST"
+      accept-charset="UTF-8"
+      enctype="multipart/form-data"
+    >
+      <input
+        type="hidden"
+        name="zf_referrer_name"
+        value=""
+      /><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+      <input
+        type="hidden"
+        name="zf_redirect_url"
+        value=""
+      /><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+      <input
+        type="hidden"
+        name="zc_gad"
+        value=""
+      /><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+      <h2>Contacto GTMA</h2>
+      <p></p>
+      <!--Single Line-->
+      <label
+        >Nombre
+        <em>*</em>
+      </label>
+      <input
+        type="text"
+        name="SingleLine"
+        value=""
+        fieldType="1"
+        maxlength="255"
+      />
+      <!--Single Line-->
+      <label
+        >Apellido
+        <em>*</em>
+      </label>
+      <input
+        type="text"
+        name="SingleLine1"
+        value=""
+        fieldType="1"
+        maxlength="255"
+      />
+      <!--Single Line-->
+      <label>Empresa </label>
+      <input
+        type="text"
+        name="SingleLine2"
+        value=""
+        fieldType="1"
+        maxlength="255"
+      />
+      <!--Email-->
+      <label
+        >Correo electrónico
+        <em>*</em>
+      </label>
+      <input type="text" maxlength="255" name="Email" value="" fieldType="9" />
+      <!--Phone-->
+      <label>Teléfono </label>
+      <input
+        type="text"
+        compname="PhoneNumber"
+        name="PhoneNumber_countrycode"
+        phoneFormat="1"
+        isCountryCodeEnabled="false"
+        maxlength="20"
+        value=""
+        fieldType="11"
+        id="international_PhoneNumber_countrycode"
+      />
+      <label>Número</label>
+      <!--Multi Line-->
+      <label
+        >¿Cómo te podemos ayudar?
+        <em>*</em>
+      </label>
+      <textarea name="MultiLine" maxlength="65535"></textarea>
+      <button type="submit"><em>Submit</em></button>
+    </form>
+  </body>
+</html>

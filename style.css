@@ -1,0 +1,51 @@
+.form-input  {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-textarea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+
+.form-input label {
+  margin-right: 1rem;
+  width: 11rem;
+}
+
+.form-textarea label {
+  margin-bottom: 0.5rem;
+}
+
+.form-input label em,
+.form-textarea label em {
+  color: #ff0000;
+}
+
+.form-input input,
+.form-textarea textarea {
+  flex: 1;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  border: 2px solid #296575;
+}
+
+.submit {
+  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  background-color: #E78200;
+  font-size: 1rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.submit:hover {
+  background-color: #296575;
+}
+
